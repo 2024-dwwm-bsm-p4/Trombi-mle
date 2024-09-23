@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Ajouter un marqueur pour Boulogne-sur-Mer
+// Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
     .bindPopup('Boulogne-sur-Mer, Nord-Pas-de-Calais')
     .openPopup();

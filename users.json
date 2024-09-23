@@ -1,0 +1,116 @@
+[
+    {
+      "prenom": "Maxence",
+      "nom": "Hermant",
+      "ville": "Paris",
+      "hobbies": ["MMA", "Jeux vidéo"],
+      "stack": ["HTML", "CSS", "JS", "PHP", "MySQL", "NodeJS"]
+    },
+    
+    {
+        "prenom": "Julie",
+        "nom": "Charles",
+        "ville": "Saint Martin les Boulogne",
+        "hobbies": ["Films et séries", "Esthétique"],
+        "stack": ["HTML", "CSS"]
+    },
+
+
+    {
+        "prenom": "Sacha",
+        "nom": "Diereman",
+        "ville": "Audresselles",
+        "hobbies": ["Techno", "Hard music", "Sport"],
+        "stack": ["HTML", "CSS"]
+    },
+
+    {
+        "prenom": "Térence",
+        "nom": "Créteur",
+        "ville": "Boulogne sur mer",
+        "hobbies": ["Ecriture", "Musique"],
+        "stack": ["HTML", "CSS", "JS", "C#"]
+    },
+    
+    {
+        "prenom": "Grégoire",
+        "nom": "Dupont",
+        "ville": "Condette",
+        "hobbies": ["Univers Pop culture", "Jeux vidéos", "Informatique", "Arts créatifs"],
+        "stack": ["HTML", "CSS", "JS", "C#"]
+    },
+
+    {
+        "prenom": "Maxence",
+        "nom": "Hermant",
+        "ville": "Paris",
+        "hobbies": ["MMA", "Jeux vidéo"],
+        "stack": ["HTML", "CSS", "JS", "C#"]
+    },
+
+    {
+        "prenom": "Yohann",
+        "nom": "Vanherzecke",
+        "ville": "Calais",
+        "hobbies": ["Vélo", "Informatique", "Balade"],
+        "stack": ["HTML", "CSS", "JS"]
+    },
+
+    {
+        "prenom": "Florent",
+        "nom": "Broutin",
+        "ville": "Calais",
+        "hobbies": ["Informatique", "Jeux vidéo"],
+        "stack": ["HTML", "CSS", "JS"]
+    },
+
+    {
+        "prenom": "Aledorian",
+        "nom": "Legrand",
+        "ville": "Boulogne sur mer",
+        "hobbies": ["Jeux vidéo", "Art"],
+        "stack": ["HTML", "CSS", "JS", "PHP"]
+    },
+
+    {
+        "prenom": "Aledorian",
+        "nom": "Legrand",
+        "ville": "Boulogne sur mer",
+        "hobbies": ["Jeux vidéo", "Art"],
+        "stack": ["HTML", "CSS", "JS", "PHP"]
+    },
+
+    {
+        "prenom": "Marine",
+        "nom": "Lamour",
+        "ville": "Boulogne sur mer",
+        "hobbies": ["Randonnée", "lecture"],
+        "stack": ["HTML", "CSS"]
+    },
+
+    {
+        "prenom": "Philippe",
+        "nom": "Bourgeois",
+        "ville": "Boulogne sur mer",
+        "hobbies": ["Randonnée", "Musique"],
+        "stack": ["HTML", "CSS", "MySQL", "Symphony"]
+    },
+
+    {
+        "prenom": "Maryline",
+        "nom": "Lesaffre",
+        "ville": "Le Portel",
+        "hobbies": ["Dessin", "Jeux vidéo"],
+        "stack": ["HTML", "CSS"]
+    },
+
+    {
+        "prenom": "Perrine",
+        "nom": "Eeckman",
+        "ville": "Boulogne sur Mer",
+        "hobbies": ["Cause animale", "Environnement", "Chorale"],
+        "stack": ["HTML", "CSS"]
+    },
+
+]
+  
