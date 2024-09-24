@@ -21,14 +21,15 @@
 }
 .titre{
     text-align: center;
-    background-color: rgb(224, 224, 224);
+    color: #115788;
+    background-color: #90caf1;
 }
 .img{
     width: 100px;
-    height: 100px;
+    height: auto;
     display: block;
     border-radius: 8px;
-    margin: 8px;
+    margin: 10px auto;
    
 }
 .leaflet-popup-content-wrapper{
