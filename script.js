@@ -1,6 +1,6 @@
 
 // Initialiser la carte centrée sur Boulogne-sur-Mer
-var map = L.map('map').setView([50.725231, 1.613334], 13);
+var map = L.map('map').setView([50.725231, 1.613334], 10);
 
 // Ajouter une couche de tuiles OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -9,8 +9,25 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
-    .bindPopup('Boulogne-sur-Mer, Nord-Pas-de-Calais')
+    .bindPopup('<h1>Boulogne</h1>')
     .openPopup();
+
+    L.marker([50.739231, 1.633334]).addTo(map)
+    .bindPopup('<h1>Boulogne</h1>')
+    .openPopup();
+
+    L.marker([50.742231, 1.653334]).addTo(map)
+    .bindPopup('<h1>Boulogne</h1>')
+    .openPopup();
+
+    L.marker([50.744231, 1.673334]).addTo(map)
+    .bindPopup('<h1>Boulogne</h1>')
+    .openPopup();
+
+    L.marker([50.729231, 1.603334]).addTo(map)
+    .bindPopup('<h1>Boulogne</h1>')
+    .openPopup();
+
 
     L.marker([50.95194, 1.85635]).addTo(map)
     .bindPopup('Calais, Nord-Pas-de-Calais')
@@ -43,3 +60,6 @@ L.marker([50.725231, 1.613334]).addTo(map)
     L.marker([ 50.6384 , 1.74628]).addTo(map)
     .bindPopup('Samer, Nord-Pas-de-Calais')
     .openPopup();
+
+
+   
