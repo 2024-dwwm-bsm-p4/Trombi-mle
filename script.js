@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
-    .bindPopup('<h1>Boulogne</h1>')
+    .bindPopup('<h1 class="card">Boulogne</h1>')
     .openPopup();
 
     L.marker([50.739231, 1.633334]).addTo(map)
@@ -54,12 +54,30 @@ L.marker([50.725231, 1.613334]).addTo(map)
     .openPopup();
 
     L.marker([ 50.700001 , 1.56667]).addTo(map)
-    .bindPopup('Le Portel, Nord-Pas-de-Calais')
+    .bindPopup(`
+            <div class="card">
+            <img  class="img" src=".Images/maryline.webp">
+            <strong>Prénom :</strong> Maryline<br>
+            <strong>Nom :</strong> Lesaffre<br>
+            <strong>Ville :</strong> Le Portel<br>
+            <strong>Hobbies :</strong> Dessin, Jeux vidéo<br>
+            <strong>Stack :</strong> HTML, CSS
+        </div>`)
     .openPopup();
 
     L.marker([ 50.6384 , 1.74628]).addTo(map)
     .bindPopup('Samer, Nord-Pas-de-Calais')
     .openPopup();
+
+
+    var personData = {
+        "prenom": "Julie",
+        "nom": "Charles",
+        "ville": "Saint Martin les Boulogne",
+        "hobbies": ["Films et séries", "Esthétique", "Voyages"],
+        "stack": ["HTML", "CSS", "JavaScript"]
+    };
+
 
 
    
