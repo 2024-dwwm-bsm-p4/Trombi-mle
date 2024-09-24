@@ -58,6 +58,8 @@ L.marker([50.725231, 1.613334]).addTo(map)
             Saint-Martin Boulogne<br>
             Films 📽️ et séries  🎞️ <br>
             HTML, CSS, 
+        </div>
+        `)
     .openPopup();
 
     L.marker([50.744231, 1.673334]).addTo(map)
@@ -136,14 +138,14 @@ L.marker([50.725231, 1.613334]).addTo(map)
     L.marker([ 50.650002 , 1.65]).addTo(map)
     .bindPopup(`
         <div class="card">
-            <img  class="img" src="./img/gregoire.webp">
-            Grégoire<br>
-            Dupont<br>
-            Condette<br>
-            Univers Pop culture, Jeux vidéos 🎮, Informatique, Arts créatifs 🖌️<br>
+            <img  class="img" src="./img/gregoire.webp"/>
+            Grégoire</br>
+            Dupont</br>
+            Condette</br>
+            Univers Pop culture, Jeux vidéos 🎮, Informatique, Arts créatifs 🖌️</br>
             C#, JS, CSS, HTML
         </div>
-    `)
+     `)
     .openPopup();
 
 
