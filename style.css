@@ -17,8 +17,11 @@
 .card{
     min-width: 100px;
     text-align: center;
-    
-    
+     
+}
+.titre{
+    text-align: center;
+    background-color: rgb(224, 224, 224);
 }
 .img{
     width: 100px;
