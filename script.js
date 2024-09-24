@@ -9,15 +9,42 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
-    .bindPopup()
+    .bindPopup(`
+        <div class="card">
+            <img  class="img" src="">
+             Aledorian<br>
+            Legrand<br>
+            Boulogne-sur-mer<br>
+            Art et jeux vidéos<br>
+            HTML, CSS, JS, PHP
+        </div>
+    `)
     .openPopup();
 
     L.marker([50.739231, 1.633334]).addTo(map)
-    .bindPopup('<h1>Boulogne</h1>')
+    .bindPopup(`
+        <div class="card">
+            <img  class="img" src="">
+             Marine<br>
+            Lamour<br>
+            Boulogne-sur-mer<br>
+            Randonnée et lecture<br>
+            HTML, CSS, 
+        </div>
+    `)
     .openPopup();
 
     L.marker([50.742231, 1.653334]).addTo(map)
-    .bindPopup('<h1>Boulogne</h1>')
+    .bindPopup(`
+        <div class="card">
+            <img  class="img" src="">
+             Phhilippe<br>
+            Bourgeois<br>
+            Boulogne-sur-mer<br>
+            Randonnée et musique<br>
+            HTML, CSS, MySQL, Symfony
+        </div>
+    `)
     .openPopup();
 
     L.marker([50.744231, 1.673334]).addTo(map)
@@ -50,7 +77,16 @@ L.marker([50.725231, 1.613334]).addTo(map)
     .openPopup();
 
     L.marker([  50.950001 , 1.85635]).addTo(map)
-    .bindPopup('Calais, Nord-Pas-de-Calais')
+    .bindPopup(`
+        <div class="card">
+            <img  class="img" src="">
+             Florent<br>
+            Broutin<br>
+            Calais<br>
+            Informatique et jeux vidéos<br>
+            HTML, CSS, JS
+        </div>
+    `)
     .openPopup();
 
     L.marker([ 50.700001 , 1.56667]).addTo(map)
