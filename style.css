@@ -1,6 +1,8 @@
+
 #map {
     height: 500px;
     width: 100%;
+<<<<<<< HEAD
 }
 
 .card {
@@ -9,3 +11,24 @@
     background-color: #a2d0ef;
     font-family: Arial, Helvetica, sans-serif;
 }
+=======
+
+}
+.card{
+    min-width: 100px;
+    text-align: center;
+    
+    
+}
+.img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 8px;
+    margin: 8px;
+   
+}
+.leaflet-popup-content-wrapper{
+    background-color: rgb(163, 223, 245);
+}
+>>>>>>> 39d21f311a7735ae633a9df468fbb0fa0fbb61e2
