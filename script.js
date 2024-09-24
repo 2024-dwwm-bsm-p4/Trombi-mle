@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
-    .bindPopup('<h1>Boulogne</h1>')
+    .bindPopup('Térence cre')
     .openPopup();
 
     L.marker([50.739231, 1.633334]).addTo(map)
