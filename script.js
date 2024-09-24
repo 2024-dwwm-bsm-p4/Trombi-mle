@@ -36,7 +36,7 @@ L.marker([50.725231, 1.613334]).addTo(map)
     `)
     .openPopup();
 
-    L.marker([50.744231, 1.673334]).addTo(map)
+    L.marker([50.750231, 1.673334]).addTo(map)
     .bindPopup(`
         <div class="card">
             <img  class="img" src="img/philippe.webp">
@@ -48,20 +48,6 @@ L.marker([50.725231, 1.613334]).addTo(map)
         </div>
     `)
     
-
-    L.marker([50.731906 , 1.645652]).addTo(map)
-    .bindPopup(`
-        <div class="card">
-            <img  class="img" src="img/julie.webp">
-             Julie<br>
-            Charles<br>
-            Saint-Martin Boulogne<br>
-            Films 📽️ et séries  🎞️ <br>
-            HTML, CSS, 
-        </div>
-        `)
-    .openPopup();
-
     L.marker([50.744231, 1.673334]).addTo(map)
     .bindPopup(`
         <div class="card">
@@ -115,9 +101,21 @@ L.marker([50.725231, 1.613334]).addTo(map)
     `)
     .openPopup();
 
+
     L.marker([50.731906 , 1.645652]).addTo(map)
-    .bindPopup('Saint-Martin les Boulogne, Nord-Pas-de-Calais')
+    .bindPopup(`
+        <div class="card">
+            <img  class="img" src="img/julie.webp">
+             Julie<br>
+            Charles<br>
+            Saint-Martin Boulogne<br>
+            Films 📽️ et séries  🎞️ <br>
+            HTML, CSS, 
+         </div>
+            `)
+
     .openPopup();
+
 
     L.marker([50.824 , 1.5931]).addTo(map)
     .bindPopup(`
@@ -149,6 +147,7 @@ L.marker([50.725231, 1.613334]).addTo(map)
     .openPopup();
 
 
+
     L.marker([  50.950001 , 1.85635]).addTo(map)
     .bindPopup(`
         <div class="card">
@@ -156,9 +155,7 @@ L.marker([50.725231, 1.613334]).addTo(map)
              Florent<br>
             Broutin<br>
             Calais<br>
-
             Informatique 💻 et jeux vidéos 🎮<br>
-
             HTML, CSS, JS
         </div>
     `)
@@ -172,16 +169,11 @@ L.marker([50.725231, 1.613334]).addTo(map)
             Lesaffre<br>
             Le Portel<br>
             Dessin ✏️ Jeux vidéo 🎮<br>
-
-
-
             HTML, CSS
         </div>
     `)
     .openPopup();
 
-
-    
 
     L.marker([ 50.6384 , 1.74628]).addTo(map)
     .bindPopup(`
