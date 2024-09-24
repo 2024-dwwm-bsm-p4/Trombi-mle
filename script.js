@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Ajoute un marqueur pour chaque ville
 L.marker([50.725231, 1.613334]).addTo(map)
-    .bindPopup('Térence cre')
+    .bindPopup()
     .openPopup();
 
     L.marker([50.739231, 1.633334]).addTo(map)
@@ -54,7 +54,16 @@ L.marker([50.725231, 1.613334]).addTo(map)
     .openPopup();
 
     L.marker([ 50.700001 , 1.56667]).addTo(map)
-    .bindPopup('Le Portel, Nord-Pas-de-Calais')
+    .bindPopup( `
+        <div class="card">
+            <img  class="img" src="img/photo-de-moi.jpg">
+             Maryline<br>
+            Lesaffre<br>
+            Le Portel<br>
+            Dessin, Jeux vidéo<br>
+            HTML, CSS
+        </div>
+    `)
     .openPopup();
 
     L.marker([ 50.6384 , 1.74628]).addTo(map)
@@ -62,4 +71,3 @@ L.marker([50.725231, 1.613334]).addTo(map)
     .openPopup();
 
 
-   
